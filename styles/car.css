@@ -31,7 +31,6 @@ body {
 }
 .banner-left {
   text-align: center;
-  text-align: center;
 }
 .left-sub-title {
   font-family: sans-serif;
@@ -60,26 +59,129 @@ body {
   font-size: 23px;
   font-style: normal;
   font-weight: 700;
-  padding: 10px 15px ;
+  padding: 10px 15px;
   border-radius: 20px;
   background: #ff1111;
   border: none;
   cursor: pointer;
-  
 }
-.btn-book i, .btn-more i{
-    margin-left: 8px;
+.btn-book i,
+.btn-more i {
+  margin-left: 8px;
 }
 .btn-more {
-    margin-left: 20px;
-    color: #fff;
+  margin-left: 20px;
+  color: #fff;
   font-family: sans-serif;
   font-size: 23px;
   font-style: normal;
   font-weight: 700;
-  padding: 10px 15px ;
+  padding: 10px 15px;
   border-radius: 20px;
   background: rgb(0, 0, 0);
   border: none;
   cursor: pointer;
+}
+
+/* About Section Styles  */
+
+.about-container {
+  margin: auto;
+}
+
+.about-title {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 50px;
+  font-style: bold;
+  color: rgb(13, 53, 98);
+  font-weight: 700;
+}
+.about-title span {
+  font-family: sans-serif;
+  font-size: 50px;
+  font-style: bold;
+  color: rgb(203, 25, 25);
+  font-weight: 700;
+}
+.about-info {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.about-right {
+  text-align: start;
+  padding-left: 10%;
+}
+.right-title {
+  color: #000;
+  font-family: Inria Sans;
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 30px;
+}
+.right-car-red {
+  color: rgb(203, 25, 25);
+  font-family: Inria Sans;
+  font-size: 55px;
+  font-style: bolda;
+  font-weight: 900;
+  line-height: normal;
+}
+.info-right-des {
+  color: #000;
+  font-family: Inria Sans;
+  font-size: 29px;
+  font-style: normal;
+  font-weight: 300;
+}
+.info-right-check i {
+  color: #363232;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 300;
+  color: rgb(203, 25, 25);
+  line-height: normal;
+}
+.info-right-check {
+  align-items: center;
+  color: #363232;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.pertner-container {
+  padding-top: 25px;
+  text-align: center;
+}
+.pertner-container h1 {
+  color: #000;
+  font-family: Inria Sans;
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.pertner-container h1 span {
+  color: #f00;
+  font-family: Inria Sans;
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.partner-logo img{
+    margin-left: 100px;
+}
+.copy-right{
+  padding: 30px 100px;
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
 }
